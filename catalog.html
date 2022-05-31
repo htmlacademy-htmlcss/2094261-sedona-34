@@ -22,13 +22,53 @@
         </ul>
       </nav>
     </header>
-    <main class="main-inner">
+    <main class="main_inner">
         <header class="inner_header">
             <h1 class="inner_header_title">Гостиницы Седоны</h1>
             <ul class="breadcrumbs">
                 <li class="breadcrumbs_item"><a class="visually-hidden" href="index.html">Главная</a></li>
                 <li class="breadcrumbs_item"><a href="#">Гостиницы</a></li>
             </ul>
+            <section class="catalog_hotels">
+                <h2 class="visually-hidden">Список гостиниц с фильтрами</h2>
+                <form class="catalog_filter" action="https://echo.htmlacademy.ru/" method="get">
+                    <button class="button" type="submit">Применить</button></form>
+                    <button class="button" type="reset">Сбросить</button></form>
+                    <fieldset class="catalog_filter_group">
+                        <legend class="catalog_filter_title">Инфраструктура:</legend>
+                        <label class="control">
+                            <input class="control_input" type="checkbox" name="swimmingpool" checked>Бассейн</label>
+                        <label class="control">
+                            <input class="control_input" type="checkbox" name="parking" checked>Парковка</label>
+                        <label class="control">
+                            <input class="control_input" type="checkbox" name="Wi-Fi">Wi-Fi</label>
+                      </fieldset>
+            
+                      <fieldset class="catalog_filter_group">
+                      <legend class="catalog_filter_title">Тип жилья:</legend>
+                        <ul class="accommodation_type_list">
+                           <li class="accommodation_type_list_item"><input class="control-input" type="radio" name="accommodation" 
+                             value="hotel" checked>Гостиница </li> 
+                            <li class="accommodation_type_list_item"><input class="control-input" type="radio" name="accommodation" 
+                            value="Motel">Мотель </li>
+                            <li class="accommodation_type_list_item"><input class="control-input" type="radio" name="accommodation" 
+                            value="Apartments">Апартаменты </li>  
+                        </ul>
+                    </fieldset>
+                </form>
+                <section class="search_results">
+                    <h3>Найдено гостиниц:</h3>
+                    <select class="select_control" aria-label="Сортировка">
+                        <option value="popular">Сначала популярные</option>
+                        <option value="cheap">Сначала дешёвые</option>
+                        <option value="expensive">Сначала дорогие</option>
+                      </select>
+                      
+                </section>
+                
+
+
+            </section>
 
         </header>
 
