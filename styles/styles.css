@@ -195,6 +195,7 @@
     text-transform: uppercase;
     text-align: center;
     color: #FFFFFF;
+    background-color: #82B3D3
   }
 
   .newsletter_description{
@@ -205,6 +206,7 @@
     line-height: 26px;
     text-align: center;
     color: #FFFFFF;
+    background-color: #82B3D3
   }
 
   .subscribe{
@@ -215,6 +217,7 @@
     line-height: 21px;
     align-items: center;
     color: #000000;
+    background-color: #82B3D3
   }
 
   .subscribe_button{
