@@ -2,7 +2,7 @@
     font-family: "PT Sans";
     font-style: normal;
     font-weight: 400;
-    src: url("..\fonts\ptsans-400.woff2") format("woff2");
+    src: url("../fonts/ptsans-400.woff2") format("woff2");
     font-display: swap;
   }
   
@@ -10,7 +10,7 @@
     font-family: "PT Sans";
     font-style: normal;
     font-weight: 700;
-    src: url("..\fonts\ptsans-700.woff2") format("woff2");
+    src: url("../fonts/ptsans-700.woff2") format("woff2");
     font-display: swap;
   }
 
@@ -29,4 +29,216 @@
   li {
   list-style-type: none;  
   }
+
+  .navigation_link {
+    font-family: 'PT Sans', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 26px;
+    text-transform: capitalize;
+    color: #000000;
+    text-decoration: none;
+    background-color: #FFFFFF;
+  }
+
+  .lets_go_button{
+    font-family: "PT Sans", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #FFFFFF;
+    background-color: #756157;
+  }
   
+  .sedona_short_description{
+    font-family: "PT Sans", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 36px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #000000;
+    background-color: #FFFFFF;
+  }
+
+  .advantages_intro{
+    font-family: "PT Sans", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 26px;
+    text-align: center;
+    color: #333333;
+    background-color: #FFFFFF;
+  }
+
+  .advantages_block_1,
+  .advantages_block_2 {
+  background-color: #82B3D3;
+  color: #FFFFFF;
+  }
+
+  .advantages_block_3,
+  .advantages_block_5,
+  .sub_element_souvenir,
+  .sub_element_home {
+  color: #000000;
+  background-color: rgba(131, 179, 211, 0.12);
+  }
+
+  .sub_element_food{
+  color: #000000;
+  background-color:#FFFFFF;
+  }
+  
+  .advantages_block_4 {
+  color: #000000;
+  background-color: rgba(131, 179, 211, 0.2);
+  }
+
+  main h3,h4 {
+  font-family: 'PT Sans', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  text-align: center;
+  text-transform: uppercase;
+  }
+  
+  .advantages_number {
+  font-family: 'PT Sans', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: center;
+  }
+
+  .advantages_sublist_description,
+  .advantages_description {
+  font-family: 'PT Sans', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: center;
+  color: #333333;
+  }
+
+  .advantages_block_1 .advantages_description {
+  color: #FFFFFF;
+  background-color:#82B3D3 ;
+  }
+
+
+  .advantages_block_2 .advantages_description {
+  color: #FFFFFF;
+  background-color:#82B3D3 ;
+  }
+  
+  .Search_hotel_title {
+  font-family: 'PT Sans', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 36px;
+  text-align: center;
+  text-transform: uppercase;   
+  }
+
+  .Search_hotel_text{
+  font-family: 'PT Sans', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 26px;
+  text-align: center;
+  color: #333333;
+  }
+
+  .Search_hotel_button{
+    font-family: 'PT Sans', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 36px;  
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    background-color: #756157;
+    text-decoration: none;
+  }
+
+  .newsletter {
+    background-image: url("../images/background.jpg");
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    width: 1200px;
+    height: 411px;
+  }
+
+  .newsletter_title{
+    font-family: 'PT Sans', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 36px;
+    text-transform: uppercase;
+    text-align: center;
+    color: #FFFFFF;
+  }
+
+  .newsletter_description{
+    font-family: 'PT Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 26px;
+    text-align: center;
+    color: #FFFFFF;
+  }
+
+  .subscribe{
+    font-family: 'PT Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    align-items: center;
+    color: #000000;
+  }
+
+  .subscribe_button{
+    font-family: 'PT Sans', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 36px;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    background-color: #82B3D3;
+  }
+  
+  .phonenumber a{
+    font-family: 'PT Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 40px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #000000;
+    background-color: #FFFFFF;
+    text-decoration-line: none;
+  }
