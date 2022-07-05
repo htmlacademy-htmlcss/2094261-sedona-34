@@ -103,7 +103,7 @@
   background-color: rgba(131, 179, 211, 0.2);
   }
 
-  main h3,h4 {
+  .main_index h3,h4 {
   font-family: 'PT Sans', sans-serif;
   font-style: normal;
   font-weight: 700;
@@ -245,3 +245,30 @@
     background-color: #FFFFFF;
     text-decoration-line: none;
   }
+
+  .inner_header{
+    background-image: url("../images/filter_back.jpg");
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    width: 1200px;
+    height: 403px;
+  }
+
+  .inner_header_title{
+    font-family: 'PT Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 78px;
+    color: #FFFFFF;
+    background-color: #82B3D3;
+  }
+
+  .vector-right{
+    background-image: url("../images/icons/arrow-right.png");
+    width: 11px; ;
+    height: 16px;
+    background-size: 50% auto;
+    background-repeat: no-repeat;
+  }
+
