@@ -246,7 +246,7 @@
     text-decoration-line: none;
   }
 
-  .inner_header{
+  .catalog_filter{
     background-image: url("../images/filter_back.jpg");
     background-size: 100% auto;
     background-repeat: no-repeat;
@@ -261,7 +261,7 @@
     font-size: 60px;
     line-height: 78px;
     color: #FFFFFF;
-    background-color: #82B3D3;
+
   }
 
   .vector-right{
@@ -270,5 +270,59 @@
     height: 16px;
     background-size: 50% auto;
     background-repeat: no-repeat;
+    background-color: #82B3D3
   }
 
+  .breadcrumbs_item a{
+    font-family: 'PT Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    color: #FFFFFF;
+    text-decoration: none;
+    background-color: #82B3D3
+  }
+
+  .catalog_filter_title {
+    font-family: 'PT Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 26px;
+    text-transform: capitalize;
+    color: #FFFFFF;
+  }
+
+  .accommodation_type_list_item,
+  .control{
+    font-family: 'PT Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #FFFFFF;
+  }
+
+  .accept_button {
+    font-family: 'PT Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    background-color: #82B3D3;;
+  }
+
+  .reset_button {
+    font-family: 'PT Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    color: #FFFFFF;
+  }

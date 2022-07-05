@@ -24,19 +24,21 @@
       </nav>
     </header>
     <main class="main_inner">
-        <header class="inner_header">
+      <div class="catalog_filter">
+        <div class="breadcrumbs">
+
             <h1 class="inner_header_title">Гостиницы Седоны</h1>
             <ul class="breadcrumbs">
                 <li class="breadcrumbs_item"><a href="index.html"> <img src="images/icons/main-icon.svg" alt="На главную"> </a></li>
                 <li class="breadcrumbs_item"><div class="vector-right"><span class="visually-hidden">Обозначение положения на сайте</span></div></li>
                 <li class="breadcrumbs_item"><a href="#">Гостиницы</a></li>
             </ul>
-        </header>
+        </div>
             <section class="catalog_hotels">
                 <h2 class="visually-hidden">Список гостиниц с фильтрами</h2>
-                <form class="catalog_filter" action="https://echo.htmlacademy.ru/" method="get">
-                    <button class="button" type="submit">Применить</button></form>
-                    <button class="button" type="reset">Сбросить</button></form>
+                <form class="catalog_buttons" action="https://echo.htmlacademy.ru/" method="get">
+                    <button class="button accept_button" type="submit">Применить</button></form>
+                    <button class="button reset_button" type="reset">Сбросить</button></form>
                     <fieldset class="catalog_filter_group">
                         <legend class="catalog_filter_title">Инфраструктура:</legend>
                         <label class="control">
@@ -58,7 +60,9 @@
                             value="Apartments">Апартаменты </li> </label>
                         </ul>
                     </fieldset>
+                    
                 </form>
+              </div>
                 <section class="search_results">
                     <h3>Найдено гостиниц:</h3>
                     
