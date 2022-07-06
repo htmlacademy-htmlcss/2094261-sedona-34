@@ -217,7 +217,7 @@
     line-height: 21px;
     align-items: center;
     color: #000000;
-    background-color: #82B3D3
+    background-color: #F2F2F2
   }
 
   .subscribe_button{
@@ -327,6 +327,10 @@
     color: #FFFFFF;
   }
 
+  .button_bold{
+    border: 2px solid black;
+  }
+
   .search_resaults_title {
     font-family: 'PT Sans', sans-serif;
     font-style: normal;
@@ -373,7 +377,69 @@
     text-decoration: none;
   }
 
-  .hotel_card_button-favorite
+  .hotel_card_button-favorite{
+    font-family: 'PT Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    background-color: #82B3D3;
+    text-decoration: none;
+  }
+
+  .hotel_card_button-favorite-chosed{
+    font-family: 'PT Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    background-color: #7DB54F;
+    text-decoration: none;
+  }
+
+  .rating {
+    font-family: 'PT Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #333333;
+    background-color: #F2F2F2;
+  }
+
+  .four-stars{
+    background-image: url("../images/icons/star.png");
+    background-size: 25% auto;
+    background-color: #FFFFFF;
+    width: 80px;
+    height: 20px;
+  }
+
+  .three-stars{
+    background-image: url("../images/icons/star.png");
+    background-size: 33% auto;
+    background-color: #FFFFFF;
+    width: 66px;
+    height: 20px;
+  }
+  
+  .two-stars{
+    background-image: url("../images/icons/star.png");
+    background-size: 50% auto;
+    background-color: #FFFFFF;
+    width: 44px;
+    height: 20px;
+  }
 
   .pagination_link{
     font-family: 'PT Sans', sans-serif;
@@ -418,4 +484,27 @@
     font-size: 18px;
     line-height: 21px;
     color: #333333;
+  }
+
+  .newsletter_title-catalog{
+    font-family: 'PT Sans', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 36px;
+    text-transform: uppercase;
+    text-align: center;
+    color: #000000;
+    background-color: white;
+  }
+
+  .newsletter_description-catalog{
+    font-family: 'PT Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 26px;
+    text-align: center;
+    color: #333333;
+    background-color: white;    
   }
